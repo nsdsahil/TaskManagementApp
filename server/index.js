@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
 	cors({
-		origin: [process.env.FRONTEND_URL,"https://task-management-app-dun-psi.vercel.app"],
+		origin: [process.env.FRONTEND_URL,"https://task-management-app-dun-psi.vercel.app","https://task-management-app-2jkd.vercel.app"],
 	})
 );
 app.use(express.json());
